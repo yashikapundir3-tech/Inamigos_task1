@@ -372,3 +372,70 @@ footer {
         height: 330px;
     }
 }
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 6%;
+  }
+
+  nav h2 {
+    font-size: 30px;
+  }
+
+  nav ul {
+    gap: 18px;
+  }
+
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero-content {
+    padding: 70px 6% 50px;
+  }
+
+  .hero-content span {
+    font-size: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.15;
+  }
+
+  .hero-content p {
+    font-size: 22px;
+    line-height: 1.7;
+  }
+
+  .about-box img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .gallery-grid img {
+    height: 230px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-text {
+    padding: 24px;
+  }
+
+  .card-text h3 {
+    font-size: 28px;
+  }
+
+  .card-text p {
+    font-size: 18px;
+  }
+}
